@@ -1,0 +1,17 @@
+.centrado {
+    text-align: center;
+}
+
+.completo {
+    text-align: right;
+    color: blue;
+}
+
+.pruebaparrafo {
+    position: absolute;
+    background-color: darkgray;
+    color: crimson;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
