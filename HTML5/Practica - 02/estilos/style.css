@@ -1,0 +1,43 @@
+.contenedor {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    width: 30em;
+    height: 30em;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.partearriba {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+.parteabajo {
+    width: 20em;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+}
+
+.hijorojo {
+    width: 10em;
+    height: 10em;
+    background-color: red;
+}
+
+.hijonegro {
+    width: 10em;
+    height: 10em;
+    background-color: black;
+}
