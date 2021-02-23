@@ -1,3 +1,12 @@
+.fotofondo {
+    background-color: cornflowerblue;
+    background-image: url(/img/general.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*font-family: Verdana;*/
+}
+
 .centrado {
     text-align: center;
 }
@@ -8,10 +17,20 @@
 }
 
 .pruebaparrafo {
-    position: absolute;
+    position: relative;
     background-color: darkgray;
     color: crimson;
     text-align: center;
     width: 300px;
     height: 200px;
+    opacity: 1;
+    transition: 2s;
+    margin-left: 20em;
+    align-items: top;
+}
+
+.pruebaparrafo:hover {
+    opacity: 0.5;
+    transition: 2s;
+    margin-left: 25em;
 }

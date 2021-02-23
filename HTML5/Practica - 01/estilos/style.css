@@ -1,0 +1,22 @@
+.padre {
+    position: absolute;
+    width: 40em;
+    height: 40em;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo1 {
+    width: 10em;
+    height: 10em;
+    background-color: red;
+}
+
+.hijo2 {
+    width: 10em;
+    height: 10em;
+    background-color: black;
+}
