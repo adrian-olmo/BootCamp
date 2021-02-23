@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.GBoy {
+    position: absolute;
+    width: 30em;
+    height: 50em;
+    background-color: #4a2c84;
+    border-radius: 1em;
+}
+
+.bordePantalla {
+    position: absolute;
+    width: 23em;
+    height: 23em;
+    background-color: #303437;
+    border-radius: 0.5em;
+    margin: 2em 0em 5em 3.5em;
+}
+
+.pantalla {
+    position: absolute;
+    width: 17em;
+    height: 17em;
+    background-color: #c3c8b1;
+    border-radius: 0.5em;
+    margin: 2em 0em 5em 3em;
+}
+
+.luzPower {
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: red;
+    border-radius: 100%;
+    margin: 5em 0em 0em 0.4em;
+}
+
+.simboloPower {
+    position: absolute;
+    color: white;
+    margin-top: 4.6em;
+    margin-left: 1em;
+}
+
+.letrasPower {
+    position: absolute;
+    color: white;
+    font-size: 0.6em;
+    margin-top: 10em;
+    margin-left: 0.2em;
+}
+
+.marcaColor {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 13.5em;
+    height: 3em;
+    margin: 20em 0em 0em 5em;
+}
+
+.marcaColor #logoNombre {
+    color: #bdc6d4;
+    font-family: Gill Sans;
+    font-size: 1.5em;
+    margin-top: 0.2em;
+}
+
+.marcaColor #colorNombre {
+    font-family: "Comic Sans MS";
+    font-size: 1.5em;
+    /*font-style: bo;*/
+}
+
+.marcaColor #c {
+    color: #7b1e57;
+}
+
+.marcaColor #o1 {
+    color: #56527d;
+}
+
+.marcaColor #l {
+    color: #7d9273;
+}
+
+.marcaColor #o2 {
+    color: #c4c470;
+}
+
+.marcaColor #r {
+    color: #27619d;
+}
