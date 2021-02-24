@@ -8,7 +8,7 @@
     width: 30em;
     height: 50em;
     background-color: #4a2c84;
-    border-radius: 1.5em;
+    border-radius: 1.5em 1.5em 0 0;
 }
 
 .bordePantalla {
@@ -97,6 +97,16 @@
     color: #27619d;
 }
 
+.cruceta {
+    position: absolute;
+    background-color: #424950;
+    font-family: Arial;
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    margin-top: 20em;
+}
+
 #altavoces {
     position: absolute;
     font-size: 0.7em;
@@ -109,26 +119,4 @@
     margin-left: 30em;
     text-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0);
     transform: rotate(-5deg);
-}
-
-.bordeDerecho {
-    position: absolute;
-    width: 15em;
-    height: 5em;
-    background-color: yellow;
-    /*background-color: #4a2c84;*/
-    /*border-radius: 2em 2em 2em 3em;*/
-    margin-top: 47em;
-    margin-left: 15em;
-}
-
-.bordeIzquierdo {
-    position: absolute;
-    width: 15em;
-    height: 5em;
-    background-color: red;
-    /*background-color: #4a2c84;*/
-    /*border-radius: 2em 2em 2em 3em;*/
-    margin-top: 47em;
-    margin-left: 0em;
 }
