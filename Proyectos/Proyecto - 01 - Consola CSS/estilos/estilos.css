@@ -97,15 +97,62 @@
     color: #27619d;
 }
 
-#cruceta {}
+.flechas #arriba {
+    position: absolute;
+    margin-top: 30em;
+    margin-left: 5.5em;
+    width: 3.1em;
+    height: 3em;
+}
 
-#cruceta #arriba {}
+.flechas #derecha {
+    position: absolute;
+    margin-top: 33em;
+    margin-left: 8.5em;
+    width: 3.1em;
+    height: 3em;
+    transform: rotate(90deg);
+}
 
-#cruceta #derecha {}
+.flechas #abajo {
+    position: absolute;
+    margin-top: 36em;
+    margin-left: 5.5em;
+    width: 3.1em;
+    height: 3em;
+    transform: rotate(180deg);
+}
 
-#cruceta #abajo {}
+.flechas #izquierda {
+    position: absolute;
+    margin-top: 33em;
+    margin-left: 2.5em;
+    width: 3.1em;
+    height: 3em;
+    transform: rotate(270deg);
+}
 
-#cruceta #izquierda {}
+.botonA {
+    position: absolute;
+    margin-top: 30em;
+    margin-left: 24em;
+}
+
+.botonA #tamanioA {
+    width: 4em;
+    height: 4.7em;
+}
+
+.botonB {
+    position: absolute;
+    margin-left: 20.5em;
+    margin-top: 32.5em;
+}
+
+.botonB #tamanioB {
+    width: 4em;
+    height: 4.7em;
+}
 
 #altavoces {
     position: absolute;
@@ -115,22 +162,22 @@
     letter-spacing: 0.2em;
     line-height: 01em;
     text-align: center;
-    margin-top: 60em;
-    margin-left: 30em;
+    margin-top: 58em;
+    margin-left: 23em;
     text-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0);
     transform: rotate(-5deg);
 }
 
 .bordeInferior {
     position: absolute;
-    width: 340px;
-    height: 0px;
-    border-right: 70px solid transparent;
-    border-left: 70px solid transparent;
-    border-top: 100px solid #4a2c84;
+    width: 21em;
+    height: 0em;
+    border-right: 4.375em solid transparent;
+    border-left: 4.375em solid transparent;
+    border-top: 6.25em solid #4a2c84;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     transform: rotate(180deg);
-    margin-top: 46em;
+    margin-top: 45.8em;
 }
