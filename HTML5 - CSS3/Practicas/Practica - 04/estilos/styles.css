@@ -1,0 +1,14 @@
+.barraSuperior {
+    position: absolute;
+    width: 99%;
+    height: 5em;
+    background-color: black;
+}
+
+.buscador {
+    position: absolute;
+    width: 99%;
+    height: 10em;
+    background-color: burlywood;
+    margin-top: 20em;
+}

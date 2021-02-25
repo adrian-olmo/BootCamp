@@ -1,0 +1,33 @@
+/* Ejemplo 01 */
+
+.containerGrid {
+    background-color: red;
+    padding: 5px;
+    width: 20em;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.containerGrid>div {
+    background-color: white;
+    text-align: center;
+}
+
+
+/* Ejemplo 02*/
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 40px 40px 40px;
+}
+
+.containerGrid>div {
+    background-color: white;
+    text-align: center;
+}
+
+
+/* Ejemplo 03*/
+
+.containerGrid {}
