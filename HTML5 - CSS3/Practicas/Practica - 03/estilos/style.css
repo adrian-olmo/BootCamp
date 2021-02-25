@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tablero {
+    width: 40em;
+    height: 40em;
+    background-color: black;
+    border: 0.25em black solid;
+}
+
+.fila {
+    height: 5em;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.cuadrado {
+    height: 5em;
+    width: 5em;
+    align-items: center;
+}
+
+.negro {
+    background-color: black;
+}
+
+.blanco {
+    background-color: white;
+}
+
+img {
+    width: 5em;
+    height: 5em;
+}
