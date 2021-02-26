@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    grid-template-rows: 2fr;
+    width: 99%;
+    height: 98%;
+    background: white;
+    border: 2px black solid;
+}
+
+.negro1 {
+    height: 5em;
+    background-color: black;
+    display: grid;
+}
+
+.azul1 {
+    height: 5em;
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.negro3 {
+    height: 5em;
+    background-color: black;
+}
+
+.azul4 {
+    height: 5em;
+    background-color: blue;
+}
+
+.negro5 {
+    height: 5em;
+    background-color: black;
+}
+
+.azul6 {
+    height: 5em;
+    background-color: blue;
+}

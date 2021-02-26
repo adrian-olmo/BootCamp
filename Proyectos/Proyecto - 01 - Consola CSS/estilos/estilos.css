@@ -1,3 +1,8 @@
+p {
+    margin-top: 1.2em;
+    color: black;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -66,7 +71,7 @@
 
 .marcaColor #logoNombre {
     color: #bdc6d4;
-    font-family: Gill Sans;
+    /*font-family: Gill Sans;*/
     font-size: 1.5em;
     margin-top: 0.2em;
 }
@@ -152,6 +157,45 @@
 .botonB #tamanioB {
     width: 4em;
     height: 4.7em;
+}
+
+.SSbtns {
+    position: absolute;
+    width: 8em;
+    height: 2em;
+    margin-top: 41em;
+    margin-left: 1em;
+    align-items: center;
+    display: flex;
+}
+
+.start {
+    position: absolute;
+    background-color: #303437;
+    width: 3em;
+    height: 1em;
+    border-radius: 3em;
+    box-shadow: black;
+    font-size: 0.8em;
+    -webkit-box-shadow: 1.5px 1px 5px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1.5px 1px 5px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1.5px 1px 5px -1px rgba(0, 0, 0, 0.75);
+    align-items: center;
+}
+
+.select {
+    position: absolute;
+    background-color: #303437;
+    width: 3em;
+    height: 1em;
+    border-radius: 3em;
+    margin-left: 5.2em;
+    box-shadow: black;
+    font-size: 0.8em;
+    -webkit-box-shadow: 1.5px 1px 5px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1.5px 1px 5px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1.5px 1px 5px -1px rgba(0, 0, 0, 0.75);
+    align-items: center;
 }
 
 #altavoces {
