@@ -9,4 +9,3 @@ if (nota < 5) {
 } else if (nota >= 9 && nota <= 10) {
     console.log('Sobresaliente');
 }
-10
