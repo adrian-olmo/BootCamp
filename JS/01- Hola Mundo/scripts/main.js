@@ -15,3 +15,4 @@ console.log(noDefinido);
 
 let texto = 'texto prueba';
 console.log(texto);
+console.log(!![]);
