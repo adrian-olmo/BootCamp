@@ -1,6 +1,6 @@
 let nota = prompt('¿Cual es tu nota?')
 
-if (nota < 5) {
+if (nota >= 0 && nota < 5) {
     console.log('Suspenso');
 } else if (nota >= 5 && nota < 7) {
     console.log('Suficiente');
