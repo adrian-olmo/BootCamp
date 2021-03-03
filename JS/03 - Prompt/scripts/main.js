@@ -8,4 +8,6 @@ if (nota < 5) {
     console.log('Notable');
 } else if (nota >= 9 && nota <= 10) {
     console.log('Sobresaliente');
+} else {
+    console.log('Introduce una nota correcta');
 }
