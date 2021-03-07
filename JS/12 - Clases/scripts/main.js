@@ -1,24 +1,52 @@
-class Coche {
+class Vehiculo {
 
-    constructor(nombre, marca, velocidad) {
-        this.nombre = nombre;
+    constructor(marca, velocidad, matricula, ruedas, puertas, años) {
         this.marca = marca;
         this.velocidad = velocidad;
+        this.matricula = matricula;
+        this.ruedas = ruedas;
+        this.puertas = puertas;
+        this.años = años
     }
 
-    acelerar() {
-        return this.velocidad += 30;
+    correr() {
+        return this.velocidad += 10;
     }
 
     frenar() {
         return this.velocidad = 0;
     }
 
+    aparcar() {
+        console.log('Aparcao!');
+    }
+
+}
+
+class Coche extends Vehiculo {
+    constructor(marca, velocidad, matricula, ruedas, puertas, años) {
+        super(marca, velocidad, matricula, ruedas, puertas, años);
+        this.consumo = 'Diesel';
+    }
+}
+
+class Moto extends Vehiculo {
+    constructor(marca, velocidad, matricula, ruedas, puertas, años) {
+        super(marca, velocidad, matricula, ruedas, puertas, años);
+    }
+}
+class Patin extends Vehiculo {
+    constructor(marca, velocidad, matricula, ruedas, puertas, años) {
+        super(marca, velocidad, matricula, ruedas, puertas, años);
+    }
 }
 
 
-
-let ferrari = new Coche('Ferrari', 'rojo', 40);
+const ferrari = new Coche('Ferrari', 150, '1111AAA', 4, 4, 5);
 console.log(ferrari);
-console.log('La velocidad actual es: ' + ferrari.acelerar() + 'Km/H');
-console.log('Has frenado hasta quedarte en: ' + ferrari.frenar() + 'Km/H');
+
+const yamaha = new Moto('Yamaha', 80, '2222BBB', 2, 0, 10);
+console.log(yamaha);
+
+const skate = new Patin('MonoSkate', 20, 0, 2, 0, 20);
+console.log(skate);
