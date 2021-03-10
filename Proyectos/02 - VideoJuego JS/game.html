@@ -1,45 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Megaman Fight</title>
+
+    <link rel="shortcut icon" href="img/pixlr-bg-result.png" />
     <link rel="stylesheet" href="styles/game.css">
+    <script src="scripts/main.js"></script>
+
 </head>
 
 <body>
 
-    <div class="container">
+    <!-- Pantalla Seleccion Personaje -->
+    <div class="characterSelection" id="hide">
 
-        <!-- Barra de vida J1 -->
-        <div class="barraVida-01">
-            Vida Personaje A
+        <div class="marcoJ1">
+            <img src="/img/personajes/J1morado/saltoAtaqueDcha.png" alt="" class="personajeSeleccionado01">
         </div>
 
-        <!-- Jugador Uno -->
-        <div class="jugadorUno">
-            <img src="img/personajes/J1azul/J1Dcha.png" alt="" class="jugadorDerecha">
+        <div class="txtVS">
+            VS
         </div>
 
-        <!-- Contador tiempo -->
-        <div class="contadorTiempo">
-            00
+        <div class="marcoJ2">
+            <img src="/img/personajes/J1verde/saltoAtaqueizq.png" alt="" class="personajeSeleccionado02">
         </div>
 
-        <!-- Jugador Dos -->
-        <div class="jugadorUno">
-            <img src="img/personajes/J1rojo/J1Izq.png" alt="" class="jugadorIzquierda">
+        <div class="fight" onclick="ocultarPantalla()">
+            <label for="">FIGHT!</label>
         </div>
-
-        <!-- Barra de vida J2 -->
-        <div class="barraVida-02">
-            Vida Personaje B
-        </div>
-
 
     </div>
+
+    <!-- Pantalla In-Game -->
+    <div class="inGame" id="show">
+
+        <div class="barraVida-01">
+            100/100
+        </div>
+
+
+        <div class="jugadorUno">
+            <img src="img/personajes/J1azul/disparoDcha.png" alt="" class="jugadorDerecha">
+        </div>
+
+
+        <div class="contadorTiempo">
+            <span id="countdown"></span>
+        </div>
+
+
+        <div class="jugadorUno">
+            <img src="img/personajes/J1rojo/disparoIzq.png" alt="" class="jugadorIzquierda">
+        </div>
+
+
+        <div class="barraVida-02">
+            100/100
+        </div>
+
+    </div>
+
+
 
 </body>
 
